@@ -1,0 +1,6 @@
+
+bin_PROGRAMS = newstaker
+newstaker_SOURCES = main.c ui.c
+
+AM_CFLAGS = @GTK_CFLAGS@ @WEBKIT_CFLAGS@
+AM_LDFLAGS = @GTK_LIBS@ @WEBKIT_LIBS@
